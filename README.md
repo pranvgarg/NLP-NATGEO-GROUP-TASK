@@ -1,43 +1,48 @@
+Here’s the README formatted properly in Markdown:
+
 # NLP-NATGEO-GROUP-TASK
 
-
-Description
+## Description
 
 This repository contains the implementation of an NLP-based similarity calculation task. The task involves text processing and similarity analysis using TF-IDF vectorization and GloVe embeddings on a collection of National Geographic articles. The repository also includes scripts and functions designed to facilitate the experimentation process.
 
-Files
+---
 
-1. README.md
-	•	Provides an overview of the project, including descriptions of the files and their purposes.
+## Files
 
-2. NLP_TASK.pdf
-	•	A document outlining the implementation steps for processing and analyzing text data using methods like TF-IDF and GloVe embeddings. It also demonstrates the output of similarity calculations.
+### 1. **README.md**
+- Provides an overview of the project, including descriptions of the files and their purposes.
 
-3. NLP_TASK.ipynb
-	•	A Jupyter Notebook detailing the implementation of the NLP task. It includes:
-	•	Preprocessing of text data.
-	•	TF-IDF-based similarity calculation.
-	•	GloVe embeddings for semantic similarity.
-	•	Visualization and interpretation of similarity scores.
+### 2. **NLP_TASK.pdf**
+- A document outlining the implementation steps for processing and analyzing text data using methods like TF-IDF and GloVe embeddings. It also demonstrates the output of similarity calculations.
 
-4. Functions_nlp.py
-	•	A Python script containing custom functions for NLP tasks, such as:
-	•	Calculating similarity scores.
-	•	Handling text preprocessing and GloVe embeddings.
+### 3. **NLP_TASK.ipynb**
+- A Jupyter Notebook detailing the implementation of the NLP task. It includes:
+  - Preprocessing of text data.
+  - TF-IDF-based similarity calculation.
+  - GloVe embeddings for semantic similarity.
+  - Visualization and interpretation of similarity scores.
 
-5. Group_Collage.jpeg
-	•	A collage of team members working on this project, providing a visual representation of the group involved in the task.
+### 4. **Functions_nlp.py**
+- A Python script containing custom functions for NLP tasks, such as:
+  - Calculating similarity scores.
+  - Handling text preprocessing and GloVe embeddings.
 
-Requirements
+### 5. **Group_Collage.jpeg**
+- A collage of team members working on this project, providing a visual representation of the group involved in the task.
+
+---
+
+## Requirements
 
 The project uses the following Python libraries:
-	•	scikit-learn: For TF-IDF vectorization.
-	•	gensim: For loading and working with GloVe embeddings.
-	•	numpy: For numerical operations.
-	•	os: For handling file paths and operations.
+- `scikit-learn`: For TF-IDF vectorization.
+- `gensim`: For loading and working with GloVe embeddings.
+- `numpy`: For numerical operations.
+- `os`: For handling file paths and operations.
 
 To install these dependencies, run:
-
+```bash
 pip install scikit-learn gensim numpy
 
 How to Use
@@ -66,4 +71,8 @@ Shivansh Srivastava	18BIT0324
 Pranav Garg	18BIT0320
 Vibhor Chinda	18BIT0284
 
-Let me know if you need further changes or additional details!
+Acknowledgments
+
+This project is a collaborative effort by Team 7, showcasing skills in Natural Language Processing and teamwork.
+
+You can save this as a `README.md` file. Let me know if there are other edits or additions needed!
