@@ -44,16 +44,16 @@ The project uses the following Python libraries:
 To install these dependencies, run:
 ```bash
 pip install scikit-learn gensim numpy
-
+```
 How to Use
-	1.	Preprocessing Articles:
+1.	Preprocessing Articles:
 	•	Place all the articles in a folder named Articles in the root directory.
-	2.	Run Similarity Analysis:
+2.	Run Similarity Analysis:
 	•	Use NLP_TASK.ipynb to execute the similarity analysis.
 	•	Adjust file paths and configurations if necessary.
-	3.	Custom Functions:
+3.	Custom Functions:
 	•	Import Functions_nlp.py for additional utilities and similarity calculation methods.
-	4.	View Results:
+4.	View Results:
 	•	Similarity scores for TF-IDF and GloVe embeddings are outputted in the notebook for comparison.
 
 Team Members
@@ -70,9 +70,3 @@ Aryan Chugh	18BIT0307
 Shivansh Srivastava	18BIT0324
 Pranav Garg	18BIT0320
 Vibhor Chinda	18BIT0284
-
-Acknowledgments
-
-This project is a collaborative effort by Team 7, showcasing skills in Natural Language Processing and teamwork.
-
-You can save this as a `README.md` file. Let me know if there are other edits or additions needed!
